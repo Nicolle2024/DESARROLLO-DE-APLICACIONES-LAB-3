@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tempo — Practica música todos los días</title>
+  <meta name="description" content="Tempo es la aplicación para músicos que quieren practicar de mejor manera: afinador, metrónomo, seguimiento de práctica y partituras.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#inicio" class="header__marca">Tempo</a>
+
+    <nav class="nav" aria-label="Navegación principal">
+      <ul class="nav__lista">
+        <li><a href="#funciones">Funciones</a></li>
+        <li><a href="#planes">Planes</a></li>
+        <li><a href="#descargar">Descargar</a></li>
+      </ul>
+    </nav>
+
+    <a href="#descargar" class="btn btn--fantasma">Descargar app</a>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <div class="hero__contenido">
+        <p class="hero__kicker">Práctica musical diaria</p>
+        <h1 class="hero__titulo">Practica un poco cada día y escucha la diferencia.</h1>
+        <p class="hero__texto">
+          Tempo reúne afinador, metrónomo, seguimiento de práctica y una biblioteca de partituras
+          en una sola aplicación, pensada para quienes están aprendiendo un instrumento por su cuenta.
+        </p>
+        <div class="hero__acciones">
+          <a href="#descargar" class="btn btn--primario">Descargar gratis</a>
+          <a href="#funciones" class="btn btn--enlace">Ver qué incluye</a>
+        </div>
+      </div>
+
+      <div class="hero__grafico" aria-hidden="true">
+        <img src="assets/Portada.jpg" alt="Persona practicando guitarra mientras usa la app Tempo">
+          <rect x="10"  y="70" width="14" height="40" class="onda"/>
+          <rect x="34"  y="40" width="14" height="100" class="onda"/>
+          <rect x="58"  y="90" width="14" height="30" class="onda"/>
+          <rect x="82"  y="20" width="14" height="130" class="onda"/>
+          <rect x="106" y="60" width="14" height="50" class="onda"/>
+          <rect x="130" y="10" width="14" height="150" class="onda"/>
+          <rect x="154" y="80" width="14" height="20" class="onda"/>
+          <rect x="178" y="35" width="14" height="110" class="onda"/>
+          <rect x="202" y="65" width="14" height="45" class="onda"/>
+          <rect x="226" y="15" width="14" height="140" class="onda"/>
+          <rect x="250" y="75" width="14" height="30" class="onda"/>
+          <rect x="274" y="45" width="14" height="90" class="onda"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="funciones" id="funciones">
+      <h2 class="titulo-seccion">Todo lo que necesitas para practicar</h2>
+
+      <div class="tarjetas tarjetas--funciones">
+
+        <article class="tarjeta">
+          <h3>Afinador</h3>
+          <p>Afina cualquier instrumento de cuerda o viento usando el micrófono de tu teléfono, con precisión de concierto.</p>
+          <a href="#" class="tarjeta__enlace">Probar afinador</a>
+        </article>
+
+        <article class="tarjeta">
+          <h3>Metrónomo</h3>
+          <p>Ajusta el tempo, el compás y los acentos. Ideal para practicar pasajes difíciles a distintas velocidades.</p>
+          <a href="#" class="tarjeta__enlace">Probar metrónomo</a>
+        </article>
+
+        <article class="tarjeta">
+          <h3>Seguimiento de práctica</h3>
+          <p>Registra cuánto practicas cada día y qué piezas trabajaste, para ver tu progreso a lo largo de las semanas.</p>
+          <a href="#" class="tarjeta__enlace">Ver mi progreso</a>
+        </article>
+
+        <article class="tarjeta">
+          <h3>Biblioteca de partituras</h3>
+          <p>Accede a partituras de distintos niveles y géneros, organizadas por instrumento y dificultad.</p>
+          <a href="#" class="tarjeta__enlace">Explorar biblioteca</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="planes" id="planes">
+      <h2 class="titulo-seccion">Elige tu plan</h2>
+
+      <div class="tarjetas tarjetas--planes">
+
+        <article class="tarjeta tarjeta--plan">
+          <span class="tarjeta__etiqueta">Gratuito</span>
+          <h3>S/ 0 / mes</h3>
+          <p>Afinador, metrónomo básico y hasta 5 partituras guardadas.</p>
+          <a href="#" class="tarjeta__enlace">Empezar gratis</a>
+        </article>
+
+        <article class="tarjeta tarjeta--plan tarjeta--destacada">
+          <span class="tarjeta__etiqueta">Individual</span>
+          <h3>S/ 15 / mes</h3>
+          <p>Todo lo del plan gratuito, más seguimiento de práctica y biblioteca completa de partituras.</p>
+          <a href="#" class="tarjeta__enlace">Elegir Individual</a>
+        </article>
+
+        <article class="tarjeta tarjeta--plan">
+          <span class="tarjeta__etiqueta">Familiar</span>
+          <h3>S/ 25 / mes</h3>
+          <p>Todo lo del plan Individual, compartido hasta con 4 cuentas de tu familia.</p>
+          <a href="#" class="tarjeta__enlace">Elegir Familiar</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="cta" id="descargar">
+      <h2>Empieza a practicar hoy</h2>
+      <p>Disponible para iOS y Android. Sin tarjeta de crédito para el plan gratuito.</p>
+      <div class="cta__acciones">
+        <a href="#" class="btn btn--primario">Descargar para iOS</a>
+        <a href="#" class="btn btn--fantasma">Descargar para Android</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__marca">
+      <p class="footer__logo">Tempo</p>
+      <p class="footer__descripcion">La aplicación de práctica musical diaria.</p>
+    </div>
+
+    <div class="footer__columna">
+      <h3>Producto</h3>
+      <a href="#funciones">Funciones</a>
+      <a href="#planes">Planes</a>
+      <a href="#descargar">Descargar</a>
+    </div>
+
+    <div class="footer__columna">
+      <h3>Contacto</h3>
+      <a href="Empawalon@gamil.com">hola@tempoapp.com</a>
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+    </div>
+
+    <p class="footer__legal">© 2026 Tempo. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
